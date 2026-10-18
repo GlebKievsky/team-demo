@@ -2,4 +2,4 @@
 Console.Write("Как тебя зовут? ");
 string? name = Console.ReadLine();
 if (string.IsNullOrWhiteSpace(name)) name = "гость";
-Console.WriteLine($"Привет, {name}! Добро пожаловать в team-demo.");
+Console.WriteLine($"Здравствуй, {name}! Добро пожаловать в team-demo.");
